@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>적정 몸무게 계산기 | 정민재</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="shorcut icon" href="./scales.png" type="images/x-icon">
+    <link rel="icon" href="./scales.png" type="images/x-icon">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./script/index.js" defer></script>
+</head>
+<body>
+    <div class="calc_wrap">
+        <header>
+            <h1>나의 적정 몸무게 계산기</h1>
+        </header>
+        <main>
+            <div class="main_top">
+                <p>자신의 적정 체중은 자신의 신장에 100을 빼고 0.9를 곱한 값입니다.</p>
+                <div class="calc">
+                    <dl class="calc_left">
+                        <dt>신장</dt>
+                        <dd><input type="number" name="user_height" id="user_height" placeholder="0">cm</dd>
+                        <dt>체중</dt>
+                        <dd><input type="number" name="user_weight" id="user_weight" placeholder="0">kg</dd>
+                    </dl>
+                    <div class="btn">
+                        <button type="button" class="all_btn" id="calcBtn">계산하기</button>
+                        <button type="button" class="all_btn" id="resetBtn">초기화</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main_btm">
+                <p class="result_title"><span>적정 몸무게 계산 결과</span></p>
+                <p class="result_text"></p>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>

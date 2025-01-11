@@ -1,0 +1,60 @@
+.calc_wrap {width: 650px; margin: 0 auto; color: #333;}
+.calc_wrap header {
+    background: #00ADB5 url(../rec.png) no-repeat 20px 50%;
+    background-size: 12px 12px;
+    padding: 15px 20px 15px 40px;
+    font-size: 1.13rem;
+    border-bottom: 2px solid #eee;
+}
+.calc_wrap header h1 {
+    color: #fff;
+}
+.calc_wrap main {
+    padding: 20px;
+}
+.calc_wrap main .main_top {
+    padding: 25px;
+}
+.calc_wrap main .main_top p {
+    font-size: 0.88rem;
+    background: #f8f8f8 url(../volume-up.png) no-repeat 10px 50%;
+    background-size: 16px 16px;
+    padding: 10px 10px 10px 35px;
+}
+.calc_wrap main .main_top .calc {margin-top: 15px; overflow: hidden; font-size: 0.94rem;}
+.calc_wrap main .main_top .calc .calc_left {
+    display: flex; flex-flow: row nowrap; align-items: center;
+    padding-left: 10px;
+    float: left; 
+}
+.calc_wrap main .main_top .calc .calc_left dt {margin-right: 12px; font-weight: 600;}
+.calc_wrap main .main_top .calc .calc_left dd {margin-right: 60px;}
+.calc_wrap main .main_top .calc .calc_left dd input::placeholder {color: #333;}
+.calc_wrap main .main_top .calc .calc_left dd input {
+    text-align: right;
+    width: 60px; height: 27px;
+    margin-right: 5px;
+    border: 2px solid #eee; padding: 1px 6px; border-radius: 3px;
+}
+.calc_wrap main .main_top .calc .calc_left dd input[name$=height] {}
+.calc_wrap main .main_top .calc .calc_left dd input[name$=weight] {}
+.calc_wrap main .main_top .calc .btn {float: right;}
+.calc_wrap main .main_top .calc .btn .all_btn {
+    width: 70px; height: 27px; border-radius: 3px;
+    color: #fff;
+}
+.calc_wrap main .main_top .calc .btn #calcBtn {background-color: #00ADB5;}
+.calc_wrap main .main_top .calc .btn #resetBtn {background-color: #333;}
+.calc_wrap main .main_btm {
+    padding: 0 25px;
+    border: 2px solid #00ADB5; border-radius: 6px; padding: 10px;
+    text-align: center;
+}
+.calc_wrap main .main_btm .result_title {margin-bottom: 15px;}
+.calc_wrap main .main_btm .result_title span {
+    background: url(../right.png) no-repeat right 50%;
+    background-size: 20px 20px;
+    padding-right: 20px;
+}
+.calc_wrap main .main_btm .result_text p {line-height: 1.3em;}
+.calc_wrap main .main_btm .result_text p strong {font-size: 1.13rem; font-weight: 600; color: #00ADB5; padding-right: 3px;}
